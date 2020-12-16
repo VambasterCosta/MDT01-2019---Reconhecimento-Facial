@@ -7,7 +7,7 @@ import time
 
 def getImagemComId():
     caminhos = [os.path.join('Felipe', f) for f in os.listdir('Felipe')]
-    cont = 0;
+    cont = 0
     for caminhoImagem in caminhos:
        imagemFace = Image.open(caminhoImagem).convert('L')
        print(cont)

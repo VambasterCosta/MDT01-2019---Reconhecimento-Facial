@@ -1,4 +1,4 @@
-# codigo para cosntrução das bases de imagens atraves de captura de video contendo o individuo para trinamento.
+# codigo para construção das bases de imagens atraves de captura de video contendo o individuo para treinamento.
 
 import numpy as np
 import cv2
@@ -31,7 +31,7 @@ def salvaFacesDetectadas(nome):
    # cap = cv2.VideoCapture("videos_treinamento/"+nome + ".mp4") #inicia o video para a captura video de uma diretorio
     cap = cv2.VideoCapture(0) #inicia o video para a captura (webcam)
 
-    cont = 0;
+    cont = 0
 
     while(cont < 100): #captura até a quantidade de frames que queria utilizar para o trinamento da dos algoritmos
         print("foram encontradas "+cont+" faces")
